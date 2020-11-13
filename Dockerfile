@@ -11,6 +11,4 @@ RUN wget -q https://get.helm.sh/helm-${HELM_VERSION}-linux-amd64.tar.gz -O - | t
         && chmod +x /usr/local/bin/helm
 
 COPY --from=builder /build/target/helmfile-charts-local-repo-1.0.0-SNAPSHOT-jar-with-dependencies.jar /app.jar
-ADD run.sh /run.sh
-RUN chmod +x /run.sh
 CMD ["java", "-jar", "/app.jar"]
