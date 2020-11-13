@@ -2,7 +2,7 @@
 
 [![Docker Repository on Quay](https://quay.io/repository/alexcheng1982/helmfile-charts-local-repo/status "Docker Repository on Quay")](https://quay.io/repository/alexcheng1982/helmfile-charts-local-repo)
 
-Generate a [ChartMuseum](https://chartmuseum.com/) local repo from helmfile.
+Download all charts to support offline installation with helmfile.
 
 ## Why?
 
